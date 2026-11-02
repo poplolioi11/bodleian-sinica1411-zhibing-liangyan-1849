@@ -1,10 +1,17 @@
-# 治病良言 · Bodleian Sinica 1411
+# 治病良言（1849；Bodleian Sinica 1411） / zhi bing liang yan: Transcription dataset
 
 ## 摘要 / Abstract
 
-本資料以牛津大學 Bodleian Libraries 藏 Sinica 1411《治病良言》（1849，香港英華書院印刷）為底本，供醫學史原文檢索、來源定位、引用及後續校訂。v0.2.0 比較獨立 AI 讀稿與初錄，再作非盲回圖修訂，涵蓋 10 幅影像中的 12 個原印文字面，共 81 單位、1,253 個 Unicode 碼點。22 欄字串經修訂，仍保留兩處字形對碼疑義；公開 TXT、JSON、TEI XML 與逐處訂正。修訂數量不代表錯字數或準確率，亦未經人類全文雙校。
+《治病良言》（zhi bing liang yan）是 1849 年由香港英華書院印刷、末署「黃泥涌仁施醫館謹白」的中文醫館文獻，個人作者未詳。原書陳述基督教施醫宗旨、免費診療及醫療花費，並向病人勸說及早就醫，可供研究十九世紀香港醫療慈善、醫病關係、費用話語與傳教印刷文化。v0.2.0 依 Bodleian Sinica 1411 的 10 幅影像轉錄 12 個原印文字面，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
 
-This dataset supports medical-history discovery, source location, citation and further collation of Zhi bing liang yan (1849, printed at the Anglo-Chinese College in Hong Kong), Bodleian Libraries Sinica 1411. Version 0.2.0 compares independent AI readings with the initial transcription and applies non-blind source-image revision. It covers 12 original-print text faces across ten frames, comprising 81 units and 1,253 Unicode code points. Strings in 22 columns were revised; two glyph-to-code-point uncertainties remain. Public TXT, JSON, TEI XML and unit-level corrections document the result. Change counts are not error or accuracy estimates, and no human double collation has been performed.
+Zhi bing liang yan (治病良言), printed by the Anglo-Chinese College in Hong Kong in 1849, closes with the institutional signature 黃泥涌仁施醫館; its individual author is unknown. The tract presents its Christian charitable purpose and account of free care, addresses medical expense and encourages early attendance, offering evidence for studying medical charity, hospital–patient relations, discourse on expense and missionary printing in nineteenth-century Hong Kong. Version 0.2.0 transcribes 12 original-print text faces across ten images of Bodleian Sinica 1411, providing TXT, JSON and TEI XML with references to the official source images. The text is a provisional AI transcription without human double collation or expert review.
+
+原件與書目入口 / Source witness and catalogue:
+
+- [館藏原件 / Source witness](https://digital.bodleian.ox.ac.uk/objects/ecbaffa4-4b05-418e-8865-cfda761fa353/)
+- [館藏書目 / Catalogue](https://east-asian.bodleian.ox.ac.uk/catalog/volume_1127)
+- [IIIF manifest](https://iiif.bodleian.ox.ac.uk/iiif/manifest/ecbaffa4-4b05-418e-8865-cfda761fa353.json)
+- [館方固定書目 XML / Fixed official catalogue XML](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201411.xml)
 
 **公開狀態（2026-11-02）**：[v0.2.0](https://doi.org/10.5281/zenodo.23873571)已正式發布，DOI已登記；兩平台8個下載檔的匿名比對均一致。以下固定封存說明中的「預留／製備時」記錄打包當下狀態。
 
