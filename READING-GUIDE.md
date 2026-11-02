@@ -4,7 +4,7 @@
 
 JSON／TEI與TXT採同一固定原文字串。由unit ID的pXX與side辨明物理面，再由所屬pages[].page_id（fXX）、canvas_id及image_url開啟官方全幅影像。bbox為null，僅能定位到影像幀、左右面與單位讀序；不宣稱提供逐字影像座標。
 
-疑讀須與uncertainties.json一起閱讀：start／end按Unicode碼點0起算，而非UTF-8 bytes、字形群或1起算字數；候選及理由只提供核查入口。疑讀仍保留原初錄正文，不因資料結構完整就算裁定完成。
+疑讀須與uncertainties.json一起閱讀：start／end按Unicode碼點0起算，而非UTF-8 bytes、字形群或1起算字數；候選及理由只提供核查入口。疑讀仍保留本版固定裁定正文，不因資料結構完整就算裁定完成。
 
 敬稱欄內間隔以一個U+3000表示有間隔，不保證對應原物理寬度；行首縮排記layout_note。原刻小斜點用U+3001，不視為現代新增標點。框線、魚尾與後加館藏標記不混入正文。
 

@@ -18,13 +18,13 @@
   "counts": {
     "images": 10,
     "units": 81,
-    "unicode_code_points": 1242,
-    "uncertainties": 5
+    "unicode_code_points": 1253,
+    "uncertainties": 2
   },
   "schemas": {
     "book": {
       "file": "SCHEMA.json",
-      "sha256": "7ebda31d0fa6d2ffec82380436b662f114902ed3dc5191fc7872695e1c89ac01",
+      "sha256": "c84a79c16f89caa5b33060af36530cddc42bd4619fea160181d1f7698657e8c2",
       "dialect": "https://json-schema.org/draft/2020-12/schema"
     },
     "tei": {
@@ -39,12 +39,12 @@
     }
   },
   "input_sha256": {
-    "book": "38e17a0e85483c94a081b3057d0f6e35b53e0b65489b47fbfae4a935da8e86c3",
+    "book": "b3774ccd051ab1d46d3515abb2011a46715260ff1a5de1f444a69d896372dfde",
     "sources": "46d5e3c9bf6accf5209facd7f547cd769c98b4da2058fa6479cb09051b95e5fb"
   },
   "quality": {
-    "status": "AI-initial-transcription-unreviewed",
-    "independent_reading_applied": false,
+    "status": "AI-independent-reading-and-nonblind-controller-source-adjudication",
+    "independent_reading_applied": true,
     "human_double_collation": "not-performed",
     "expert_review": "not-performed",
     "accuracy_measured": false,
@@ -57,7 +57,13 @@
         "p14"
       ],
       "note": "p14印刷邊框、欄線及褐色不清痕跡性質未核，不當空白或附記完成。"
-    }
+    },
+    "controller_blinded": false,
+    "native_actual_model": null,
+    "peer_review": "not-performed",
+    "reviewed_diff_units": 38,
+    "source_review_decisions": 39,
+    "initial_uncertainties_resolved": 5
   },
   "human_double_proofreading": "not-performed",
   "expert_certification": "not-performed",

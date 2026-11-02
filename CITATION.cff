@@ -1,19 +1,18 @@
 cff-version: 1.2.0
-message: Please cite the fixed version and check quotations against the Bodleian images.
+message: Please cite the fixed version and verify quotations against the source images.
 type: dataset
-title: 治病良言（1849，Bodleian Sinica 1411）：AI初錄資料集
+title: 治病良言（1849，Bodleian Sinica 1411）：AI獨立讀稿與非盲回圖裁定資料集
 authors:
 - family-names: Chu
   given-names: Chen-Yu
   orcid: https://orcid.org/0009-0003-9738-6914
   website: https://github.com/poplolioi11
-version: 0.1.0
+version: 0.2.0
 date-released: '2026-11-02'
 url: https://github.com/poplolioi11/bodleian-sinica1411-zhibing-liangyan-1849
-abstract: Initial AI transcription of an 1849 Hong Kong medical-charity booklet. Unresolved
-  readings retained; no independent collation, human double proofreading, expert review
-  or measured accuracy. Historical text, original documentation and source-image rights
-  are separate.
+abstract: Independent AI reading compared with the frozen initial transcription, followed
+  by non-blind controller source adjudication. Two located variant uncertainties remain.
+  No human double collation, expert review, peer review or measured accuracy.
 keywords:
 - 治病良言
 - Sinica 1411
@@ -32,4 +31,4 @@ keywords:
 - '1849'
 - digital humanities
 - TEI XML
-doi: 10.5281/zenodo.23872791
+doi: 10.5281/zenodo.23873571
