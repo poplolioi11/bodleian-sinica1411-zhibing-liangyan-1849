@@ -1,5 +1,11 @@
 # 治病良言 · Bodleian Sinica 1411
 
+## 摘要 / Abstract
+
+本資料以牛津大學 Bodleian Libraries 藏 Sinica 1411《治病良言》（1849，香港英華書院印刷）為底本，供醫學史原文檢索、來源定位、引用及後續校訂。v0.2.0 比較獨立 AI 讀稿與初錄，再作非盲回圖修訂，涵蓋 10 幅影像中的 12 個原印文字面，共 81 單位、1,253 個 Unicode 碼點。22 欄字串經修訂，仍保留兩處字形對碼疑義；公開 TXT、JSON、TEI XML 與逐處訂正。修訂數量不代表錯字數或準確率，亦未經人類全文雙校。
+
+This dataset supports medical-history discovery, source location, citation and further collation of Zhi bing liang yan (1849, printed at the Anglo-Chinese College in Hong Kong), Bodleian Libraries Sinica 1411. Version 0.2.0 compares independent AI readings with the initial transcription and applies non-blind source-image revision. It covers 12 original-print text faces across ten frames, comprising 81 units and 1,253 Unicode code points. Strings in 22 columns were revised; two glyph-to-code-point uncertainties remain. Public TXT, JSON, TEI XML and unit-level corrections document the result. Change counts are not error or accuracy estimates, and no human double collation has been performed.
+
 **公開狀態（2026-11-02）**：[v0.2.0](https://doi.org/10.5281/zenodo.23873571)已正式發布，DOI已登記；兩平台8個下載檔的匿名比對均一致。以下固定封存說明中的「預留／製備時」記錄打包當下狀態。
 
 **v0.2.0｜獨立AI讀稿、差異比較與非盲回圖裁定；保留2筆寕／寧未解疑讀。**
