@@ -1,0 +1,972 @@
+{
+  "dataset_id": "bodleian-sinica1411",
+  "version": "0.1.0",
+  "title": "治病良言（1849，Bodleian Sinica 1411）：AI初錄資料集",
+  "quality": {
+    "status": "AI-initial-transcription-unreviewed",
+    "independent_reading_applied": false,
+    "human_double_collation": "not-performed",
+    "expert_review": "not-performed",
+    "accuracy_measured": false,
+    "source_scope": "10 frames; 14 interior physical faces; 12 with original print; body text on p03-p12; p02 bleed-through excluded; p14 marks described without classifying their nature",
+    "physical_condition": {
+      "assessment": "AI visual overview; not conservation-expert assessment",
+      "severe_faces": 0,
+      "unassessed_faces": 1,
+      "unassessed_ids": [
+        "p14"
+      ],
+      "note": "p14印刷邊框、欄線及褐色不清痕跡性質未核，不當空白或附記完成。"
+    }
+  },
+  "source": {
+    "object_url": "https://digital.bodleian.ox.ac.uk/objects/ecbaffa4-4b05-418e-8865-cfda761fa353/",
+    "manifest_url": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/ecbaffa4-4b05-418e-8865-cfda761fa353.json",
+    "shelfmark": "Bodleian Libraries, Sinica 1411",
+    "edition": "道光二十九年（1849）鐫；題頁署香港英華書院印刷。",
+    "author_attribution": "末題署「黃泥涌仁施醫館謹白」；本包不另推定個人作者。"
+  },
+  "metrics": {
+    "canvases": 10,
+    "physical_inner_faces": 14,
+    "printed_text_faces": 12,
+    "body_text_faces": 10,
+    "initial_column_units": 75,
+    "observed_paratext_units": 6,
+    "units": 81,
+    "codepoints": 1242,
+    "uncertainty_records": 5,
+    "square_placeholders": 0,
+    "severe_damage_faces": 0,
+    "unassessed_physical_faces": 1,
+    "damage_upper_bound": 0.07142857142857142,
+    "damage_threshold": 0.2,
+    "damage_gate_passed": true
+  },
+  "methods": {
+    "purpose": "醫學史、醫療慈善與古籍文獻數位化；提供原文檢索、引用與後續校訂。",
+    "initial_reader": "OpenAI Codex controller; exact model identifier unavailable",
+    "actual_model": null,
+    "normalization": "保留原字串、異體與字序；原刻小斜點以U+3001保存，不新增句讀。",
+    "spacing": "欄內明顯敬稱間隔以一個U+3000表示有間隔；不重建物理寬度；行首縮排記layout_note。",
+    "paratext": "僅錄初稿實見的印頁碼；running_title為null，不據他面或常識補字；框線及魚尾不作文字。",
+    "exclusions": [
+      "p02為題頁透印，不另重錄。",
+      "p14有邊框、欄線與褐色不清痕跡；痕跡性質未核，僅作描述，不宣稱空白或附記已全錄。",
+      "封面及後加館藏標記只作描述，不收入歷史原文。"
+    ],
+    "detailed_methods_public": false,
+    "image_to_text_full_reproduction_provided": false
+  },
+  "position_convention": "疑讀採單位內Unicode碼點0起算半開區間[start,end)；bbox為null；單位ID的pXX為物理面，公開page_id的fXX為官方影像幀。",
+  "pages": [
+    {
+      "page_id": "f01",
+      "index": 1,
+      "source_sha256": "80048c6c52bc1a3e1605cd8fc638e1824a6a882a087330bfb02f24383b184a2c",
+      "width": 3000,
+      "height": 2250,
+      "official_label": "Upper cover",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3f9ecea9-f473-4bd4-8c30-b1136e9d23f2.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3f9ecea9-f473-4bd4-8c30-b1136e9d23f2/full/3000,/0/default.jpg",
+      "layout_note": "影像與物理面對照：上封面；後加館藏標籤、鉛筆及標記僅描述。單位依固定初錄的物理面及欄序排列；實見印頁碼另列，不補版心題字。敬稱造成的明顯欄內間隔以一個U+3000表示有間隔，不重建實際寬度；行首縮排只在版面註記說明。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "excluded-described-only",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [],
+      "uncertainties": []
+    },
+    {
+      "page_id": "f02",
+      "index": 2,
+      "source_sha256": "2692a36d32d78047e04985d8de5374e9126282e0b289fee7cd03bb7196291beb",
+      "width": 3000,
+      "height": 2250,
+      "official_label": "Inside upper cover and p. [1]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/ae024680-2bfa-4479-bbdd-2cf3991fba68.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/ae024680-2bfa-4479-bbdd-2cf3991fba68/full/3000,/0/default.jpg",
+      "layout_note": "影像與物理面對照：右為內上封面；左p01題頁。單位依固定初錄的物理面及欄序排列；實見印頁碼另列，不補版心題字。敬稱造成的明顯欄內間隔以一個U+3000表示有間隔，不重建實際寬度；行首縮排只在版面註記說明。p01：右至左欄序；明顯欄內抬頭間隔以一個U+3000表明有空白，不還原原圖實際寬度；行首縮排不另造字。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "AI-initial-transcription-unreviewed",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [
+        {
+          "id": "p01-c01",
+          "layer": "original-print",
+          "role": "title",
+          "side": "left",
+          "text": "道光二十九年鐫",
+          "bbox": null
+        },
+        {
+          "id": "p01-c02",
+          "layer": "original-print",
+          "role": "title",
+          "side": "left",
+          "text": "治病良言",
+          "bbox": null
+        },
+        {
+          "id": "p01-c03",
+          "layer": "original-print",
+          "role": "title",
+          "side": "left",
+          "text": "香港英華書院印刷",
+          "bbox": null
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "page_id": "f03",
+      "index": 3,
+      "source_sha256": "bf6102ee69906dcea899df5647d4a1dc6985362cbba77f40ad5269bdb79d3754",
+      "width": 3000,
+      "height": 2250,
+      "official_label": "pp. [2]-[3]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2f823832-7fea-4e68-8994-8a96cf592fcb.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f823832-7fea-4e68-8994-8a96cf592fcb/full/3000,/0/default.jpg",
+      "layout_note": "影像與物理面對照：右p02為題頁透印及館藏章，不重錄；左p03正文。單位依固定初錄的物理面及欄序排列；實見印頁碼另列，不補版心題字。敬稱造成的明顯欄內間隔以一個U+3000表示有間隔，不重建實際寬度；行首縮排只在版面註記說明。p03：右至左欄序；明顯欄內抬頭間隔以一個U+3000表明有空白，不還原原圖實際寬度；行首縮排不另造字。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "AI-initial-transcription-unreviewed",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [
+        {
+          "id": "p03-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "救主耶穌基督在世之時、周遊四方、行善",
+          "bbox": null
+        },
+        {
+          "id": "p03-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "不息、城過城、邑過邑、村過村、鄉過鄉、宣",
+          "bbox": null
+        },
+        {
+          "id": "p03-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "講福音聖道、並醫各般雜症、不拘中外",
+          "bbox": null
+        },
+        {
+          "id": "p03-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "貧富、男婦老幼、皆沾其德、不用修金謝",
+          "bbox": null
+        },
+        {
+          "id": "p03-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "價、且欲門生法其善表、乃教之曰、一要",
+          "bbox": null
+        },
+        {
+          "id": "p03-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "全心、全靈、全志敬愛　天皇上帝、二",
+          "bbox": null
+        },
+        {
+          "id": "p03-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "要愛人如己也、茲其門人欽遵　救主",
+          "bbox": null
+        },
+        {
+          "id": "p03-printed-page-number",
+          "layer": "original-print",
+          "role": "printed-page-number",
+          "side": "left",
+          "text": "一",
+          "bbox": null
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "page_id": "f04",
+      "index": 4,
+      "source_sha256": "6aaf1b563892887f8f5a971423ba9d6eec33f0740ad093fb3d4803282275e8c7",
+      "width": 3000,
+      "height": 2250,
+      "official_label": "pp. [4]-[5]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/d222feb4-1e47-479d-9532-ec09b4c6f472.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/d222feb4-1e47-479d-9532-ec09b4c6f472/full/3000,/0/default.jpg",
+      "layout_note": "影像與物理面對照：右p04、左p05，均為正文。單位依固定初錄的物理面及欄序排列；實見印頁碼另列，不補版心題字。敬稱造成的明顯欄內間隔以一個U+3000表示有間隔，不重建實際寬度；行首縮排只在版面註記說明。p04：右至左欄序；明顯欄內抬頭間隔以一個U+3000表明有空白，不還原原圖實際寬度；行首縮排不另造字。 p05：右至左欄序；明顯欄內抬頭間隔以一個U+3000表明有空白，不還原原圖實際寬度；行首縮排不另造字。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "AI-initial-transcription-unreviewed",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [
+        {
+          "id": "p04-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "之命、由西方遠境、而來中國、或傳福音",
+          "bbox": null
+        },
+        {
+          "id": "p04-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "之道、或醫染病之人、或分送聖書、以醒",
+          "bbox": null
+        },
+        {
+          "id": "p04-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "世間習俗之迷、或指引衆人、俾知獨一",
+          "bbox": null
+        },
+        {
+          "id": "p04-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "脫罪之路、此外則無別事矣、蓋普世之",
+          "bbox": null
+        },
+        {
+          "id": "p04-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "人、皆習惡俗、已獲罪於　上帝、別無脫",
+          "bbox": null
+        },
+        {
+          "id": "p04-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "罪之方、只有信從福音一路而已也、今",
+          "bbox": null
+        },
+        {
+          "id": "p04-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "計所送去之書、何下千百萬億、其算所",
+          "bbox": null
+        },
+        {
+          "id": "p05-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "醫好之人、亦不知多少千萬、卽　仁施",
+          "bbox": null
+        },
+        {
+          "id": "p05-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "醫館、已有一萬四千人、或全愈了、或醫",
+          "bbox": null
+        },
+        {
+          "id": "p05-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "幾分不等、此皆白贈、非有取絲毫於人",
+          "bbox": null
+        },
+        {
+          "id": "p05-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "也、耶穌命其門人、如此則其愛人之心、",
+          "bbox": null
+        },
+        {
+          "id": "p05-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "不可見歟、且爾衆人、不拘貴賤賢愚、豈",
+          "bbox": null
+        },
+        {
+          "id": "p05-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "不盡稱耶穌爲憐憫之神、慈善之救主",
+          "bbox": null
+        },
+        {
+          "id": "p05-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "哉、是故萬當敬愛、而獨奉事之矣、且其",
+          "bbox": null
+        },
+        {
+          "id": "p05-printed-page-number",
+          "layer": "original-print",
+          "role": "printed-page-number",
+          "side": "left",
+          "text": "二",
+          "bbox": null
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "unc-001",
+          "unit_id": "p04-c07",
+          "start": 7,
+          "end": 9,
+          "surface": "何下",
+          "reason": "末字暫按可見橫豎讀下，保留與止的候選，不因語句改通行讀法。",
+          "cause": "initial-reading-uncertainty",
+          "extent": "known",
+          "candidates": [
+            "何下",
+            "何止"
+          ]
+        }
+      ]
+    },
+    {
+      "page_id": "f05",
+      "index": 5,
+      "source_sha256": "1fef55249bff9e2375f854475925772e58ad143700fbbd76cb47133d8b7fc22e",
+      "width": 3000,
+      "height": 2250,
+      "official_label": "pp. [6]-[7]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/f63f55fe-560b-44e8-b4d4-4f0f235435cf.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/f63f55fe-560b-44e8-b4d4-4f0f235435cf/full/3000,/0/default.jpg",
+      "layout_note": "影像與物理面對照：右p06、左p07，均為正文。單位依固定初錄的物理面及欄序排列；實見印頁碼另列，不補版心題字。敬稱造成的明顯欄內間隔以一個U+3000表示有間隔，不重建實際寬度；行首縮排只在版面註記說明。p06：右至左欄序；明顯欄內抬頭間隔以一個U+3000表明有空白，不還原原圖實際寬度；行首縮排不另造字。 p07：右至左欄序；明顯欄內抬頭間隔以一個U+3000表明有空白，不還原原圖實際寬度；行首縮排不另造字。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "AI-initial-transcription-unreviewed",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [
+        {
+          "id": "p06-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "門人、不遠千里而來、旣無名利之望、又",
+          "bbox": null
+        },
+        {
+          "id": "p06-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "無德報之求、則其所傳之道必眞、而其",
+          "bbox": null
+        },
+        {
+          "id": "p06-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "所行之事、只欲衆人之益、又　諸君之",
+          "bbox": null
+        },
+        {
+          "id": "p06-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "所當信諒者矣、倘衆位經見我等之所",
+          "bbox": null
+        },
+        {
+          "id": "p06-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "爲、而知我等之善意、則於下文之言、信",
+          "bbox": null
+        },
+        {
+          "id": "p06-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "而記之是所厚望焉、",
+          "bbox": null
+        },
+        {
+          "id": "p06-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "每見跛盲等輩、來自遠方久染瘋疾遂",
+          "bbox": null
+        },
+        {
+          "id": "p07-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "成不治之症、倘其早來、則未嘗有不能",
+          "bbox": null
+        },
+        {
+          "id": "p07-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "治者也、我等旣不索人謝金藥價、乃欲",
+          "bbox": null
+        },
+        {
+          "id": "p07-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "行善於衆、故不騙人、觀其症不可治則",
+          "bbox": null
+        },
+        {
+          "id": "p07-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "直言不諱、令之回家、然知其症、若是早",
+          "bbox": null
+        },
+        {
+          "id": "p07-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "來、定然可醫、特因遲延悞之耳、則又不",
+          "bbox": null
+        },
+        {
+          "id": "p07-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "能不爲之痛恨也、尤可痛者、伊見別人、",
+          "bbox": null
+        },
+        {
+          "id": "p07-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "多得醫痊、而自己之症不治遂謂我等",
+          "bbox": null
+        },
+        {
+          "id": "p07-printed-page-number",
+          "layer": "original-print",
+          "role": "printed-page-number",
+          "side": "left",
+          "text": "三",
+          "bbox": null
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "page_id": "f06",
+      "index": 6,
+      "source_sha256": "da210b83951f19ecd1f01d63198aa374b41d1533e086b9f302c4703473502aeb",
+      "width": 3000,
+      "height": 2250,
+      "official_label": "pp. [8]-[9]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/b0d48395-e74e-4ee8-afcd-0452769796b7.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/b0d48395-e74e-4ee8-afcd-0452769796b7/full/3000,/0/default.jpg",
+      "layout_note": "影像與物理面對照：右p08、左p09，均為正文。單位依固定初錄的物理面及欄序排列；實見印頁碼另列，不補版心題字。敬稱造成的明顯欄內間隔以一個U+3000表示有間隔，不重建實際寬度；行首縮排只在版面註記說明。p08：右至左欄序；明顯欄內抬頭間隔以一個U+3000表明有空白，不還原原圖實際寬度；行首縮排不另造字。 p09：右至左欄序；明顯欄內抬頭間隔以一個U+3000表明有空白，不還原原圖實際寬度；行首縮排不另造字。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "AI-initial-transcription-unreviewed",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [
+        {
+          "id": "p08-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "不肯醫之、有時我心不忍、姑留而試之、",
+          "bbox": null
+        },
+        {
+          "id": "p08-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "或可醫其一二分、亦是美事、及至用盡",
+          "bbox": null
+        },
+        {
+          "id": "p08-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "方法而終不能有益於事也、是故奉勸",
+          "bbox": null
+        },
+        {
+          "id": "p08-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "諸君不幸而有疾者、趂病倘淺、可卽來",
+          "bbox": null
+        },
+        {
+          "id": "p08-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "館調治、不可吝惜路途之小費、而失却",
+          "bbox": null
+        },
+        {
+          "id": "p08-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "本身之大益、蓋因早來、病可速愈、若時",
+          "bbox": null
+        },
+        {
+          "id": "p08-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "越久、則症越深、便有難治之患矣、",
+          "bbox": null
+        },
+        {
+          "id": "p09-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "再者、每見病人、未來之先、今日一個先",
+          "bbox": null
+        },
+        {
+          "id": "p09-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "生、明日一個先生、費盡錢銀、屢藥不効、",
+          "bbox": null
+        },
+        {
+          "id": "p09-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "然後方來醫館、請問衆位、何爲虛費此",
+          "bbox": null
+        },
+        {
+          "id": "p09-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "錢銀耶、卽使富者、亦不須虛費、況爾貧",
+          "bbox": null
+        },
+        {
+          "id": "p09-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "者、衣食倘且難贍、何有餘錢而虛費耶、",
+          "bbox": null
+        },
+        {
+          "id": "p09-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "會記館中醫好之人、有些自說未來醫",
+          "bbox": null
+        },
+        {
+          "id": "p09-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "館之先、因請先生調治、衣衫典當不足、",
+          "bbox": null
+        },
+        {
+          "id": "p09-printed-page-number",
+          "layer": "original-print",
+          "role": "printed-page-number",
+          "side": "left",
+          "text": "四",
+          "bbox": null
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "unc-002",
+          "unit_id": "p08-c04",
+          "start": 9,
+          "end": 10,
+          "surface": "趂",
+          "reason": "走旁右部暫讀趂，保留與趁的字形候選，不默正規化。",
+          "cause": "initial-reading-uncertainty",
+          "extent": "known",
+          "candidates": [
+            "趂",
+            "趁"
+          ]
+        },
+        {
+          "id": "unc-003",
+          "unit_id": "p08-c04",
+          "start": 11,
+          "end": 13,
+          "surface": "倘淺",
+          "reason": "淺前一字左側疑有亻，暫讀倘；不因詞例改成尚。",
+          "cause": "initial-reading-uncertainty",
+          "extent": "known",
+          "candidates": [
+            "倘淺",
+            "尚淺"
+          ]
+        },
+        {
+          "id": "unc-004",
+          "unit_id": "p09-c06",
+          "start": 0,
+          "end": 1,
+          "surface": "會",
+          "reason": "首字上部似人形合蓋，暫讀會；不憑會記／曾記詞例確定。",
+          "cause": "initial-reading-uncertainty",
+          "extent": "known",
+          "candidates": [
+            "會",
+            "曾"
+          ]
+        }
+      ]
+    },
+    {
+      "page_id": "f07",
+      "index": 7,
+      "source_sha256": "b24f56ea7931e61063e4b3aff9f35547b1fe429f49c130c6e16d39c0b7d96749",
+      "width": 3000,
+      "height": 2250,
+      "official_label": "pp. [10]-[11]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/bb2dee93-8ad0-43fa-903c-8e8ed1ed4618.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/bb2dee93-8ad0-43fa-903c-8e8ed1ed4618/full/3000,/0/default.jpg",
+      "layout_note": "影像與物理面對照：右p10、左p11，均為正文。單位依固定初錄的物理面及欄序排列；實見印頁碼另列，不補版心題字。敬稱造成的明顯欄內間隔以一個U+3000表示有間隔，不重建實際寬度；行首縮排只在版面註記說明。p10：右至左欄序；明顯欄內抬頭間隔以一個U+3000表明有空白，不還原原圖實際寬度；行首縮排不另造字。 p11：右至左欄序；明顯欄內抬頭間隔以一個U+3000表明有空白，不還原原圖實際寬度；行首縮排不另造字。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "AI-initial-transcription-unreviewed",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [
+        {
+          "id": "p10-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "而又借貸於人者多矣、然病終不能愈、",
+          "bbox": null
+        },
+        {
+          "id": "p10-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "也、噫、何一愚至此哉、請以譬喻言之、今",
+          "bbox": null
+        },
+        {
+          "id": "p10-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "有二人、於此、一爲賣米者、一爲送米者、",
+          "bbox": null
+        },
+        {
+          "id": "p10-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "君欲得米、將往誰先、雖黃口小童、亦知",
+          "bbox": null
+        },
+        {
+          "id": "p10-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "答云、先往送米者也、　諸君盍不照是",
+          "bbox": null
+        },
+        {
+          "id": "p10-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "而行、先來本館、不須謝金藥價者而求",
+          "bbox": null
+        },
+        {
+          "id": "p10-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "醫乎、若嘗遇所送之米不佳、不足以養",
+          "bbox": null
+        },
+        {
+          "id": "p11-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "生、無怪乎用錢以買於賣米者、　諸君",
+          "bbox": null
+        },
+        {
+          "id": "p11-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "亦然、先來本館、倘不能醫、然後寧費錢",
+          "bbox": null
+        },
+        {
+          "id": "p11-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "以求別醫、也未爲遲誠如是、則不致久",
+          "bbox": null
+        },
+        {
+          "id": "p11-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "延症難、又不爲庸醫所悞、而吾敢告",
+          "bbox": null
+        },
+        {
+          "id": "p11-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "諸君、卽一萬四千醫好之人、亦可傳告、",
+          "bbox": null
+        },
+        {
+          "id": "p11-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "本館遍醫百病、鮮有不能治者、此非虛",
+          "bbox": null
+        },
+        {
+          "id": "p11-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "張聲勢、如庸醫者所爲、以騙人財物、我",
+          "bbox": null
+        },
+        {
+          "id": "p11-printed-page-number",
+          "layer": "original-print",
+          "role": "printed-page-number",
+          "side": "left",
+          "text": "五",
+          "bbox": null
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "unc-005",
+          "unit_id": "p10-c05",
+          "start": 0,
+          "end": 1,
+          "surface": "答",
+          "reason": "首字上部竹／艹的字形待獨立讀圖核對，暫錄答，不默統一異體。",
+          "cause": "initial-reading-uncertainty",
+          "extent": "known",
+          "candidates": [
+            "答",
+            "荅"
+          ]
+        }
+      ]
+    },
+    {
+      "page_id": "f08",
+      "index": 8,
+      "source_sha256": "73a2a0b132548356d80f13edbf893db62c9fa64c716697c62fe75a24ac59e7b3",
+      "width": 3000,
+      "height": 2250,
+      "official_label": "pp. [12]-[13]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/152957be-92d2-4d0d-8f45-0daed2bfb691.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/152957be-92d2-4d0d-8f45-0daed2bfb691/full/3000,/0/default.jpg",
+      "layout_note": "影像與物理面對照：右p12正文；左p13承接欄文「等費」及末題署。單位依固定初錄的物理面及欄序排列；實見印頁碼另列，不補版心題字。敬稱造成的明顯欄內間隔以一個U+3000表示有間隔，不重建實際寬度；行首縮排只在版面註記說明。p12：右至左欄序；明顯欄內抬頭間隔以一個U+3000表明有空白，不還原原圖實際寬度；行首縮排不另造字。 p13：右至左欄序；明顯欄內抬頭間隔以一個U+3000表明有空白，不還原原圖實際寬度；行首縮排不另造字。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "AI-initial-transcription-unreviewed",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [
+        {
+          "id": "p12-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "等耶穌門人、不圖財禮、不求德報所以",
+          "bbox": null
+        },
+        {
+          "id": "p12-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "斷不欺騙於人、乃欲做效耶穌之善表",
+          "bbox": null
+        },
+        {
+          "id": "p12-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "耳、蓋耶穌普愛衆人、不只其友、卽兼其",
+          "bbox": null
+        },
+        {
+          "id": "p12-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "仇、至於捨身代人受死贖罪、令凡信之",
+          "bbox": null
+        },
+        {
+          "id": "p12-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "者、可得救、而享天堂之永福也、",
+          "bbox": null
+        },
+        {
+          "id": "p12-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "本館亦種洋痘、每日上午開局、痘漿係",
+          "bbox": null
+        },
+        {
+          "id": "p12-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "由堅壯嬰兒取出、凡來種者、不須謝金",
+          "bbox": null
+        },
+        {
+          "id": "p13-c01",
+          "layer": "original-print",
+          "role": "colophon",
+          "side": "left",
+          "text": "等費、",
+          "bbox": null
+        },
+        {
+          "id": "p13-c02",
+          "layer": "original-print",
+          "role": "colophon",
+          "side": "left",
+          "text": "黃泥涌仁施醫館謹白",
+          "bbox": null
+        },
+        {
+          "id": "p13-printed-page-number",
+          "layer": "original-print",
+          "role": "printed-page-number",
+          "side": "left",
+          "text": "六",
+          "bbox": null
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "page_id": "f09",
+      "index": 9,
+      "source_sha256": "7fad935a750a3bb7f9cb4a7316a15f487a98fe5f7acff7cee34da7aa4432823a",
+      "width": 3000,
+      "height": 2250,
+      "official_label": "p. [14] and inside lower cover",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/44735bbb-7357-4804-b79f-4c6608e615d3.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/44735bbb-7357-4804-b79f-4c6608e615d3/full/3000,/0/default.jpg",
+      "layout_note": "影像與物理面對照：右p14有印刷邊框、欄線及褐色不清痕跡，性質未核且不作字符；左為內下封面。單位依固定初錄的物理面及欄序排列；實見印頁碼另列，不補版心題字。敬稱造成的明顯欄內間隔以一個U+3000表示有間隔，不重建實際寬度；行首縮排只在版面註記說明。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "unassessed-marks-described-only",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [],
+      "uncertainties": []
+    },
+    {
+      "page_id": "f10",
+      "index": 10,
+      "source_sha256": "1163145da848c4ec4a5c5b2cb7cc3662a37f4ea9635f8d9006a2d3603eb5f5fd",
+      "width": 3000,
+      "height": 2250,
+      "official_label": "Lower cover",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/aa93b72d-33cb-408a-8e63-d38fe2d66cbe.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/aa93b72d-33cb-408a-8e63-d38fe2d66cbe/full/3000,/0/default.jpg",
+      "layout_note": "影像與物理面對照：下封面，無納入的歷史印字。單位依固定初錄的物理面及欄序排列；實見印頁碼另列，不補版心題字。敬稱造成的明顯欄內間隔以一個U+3000表示有間隔，不重建實際寬度；行首縮排只在版面註記說明。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "excluded-described-only",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [],
+      "uncertainties": []
+    }
+  ]
+}

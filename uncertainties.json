@@ -1,0 +1,82 @@
+{
+  "dataset_id": "bodleian-sinica1411",
+  "version": "0.1.0",
+  "coordinate_system": "Unicode code points; zero-based half-open [start,end); unknown extent has null coordinates and surface",
+  "items": [
+    {
+      "page_id": "f04",
+      "id": "unc-001",
+      "unit_id": "p04-c07",
+      "start": 7,
+      "end": 9,
+      "surface": "何下",
+      "reason": "末字暫按可見橫豎讀下，保留與止的候選，不因語句改通行讀法。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "何下",
+        "何止"
+      ]
+    },
+    {
+      "page_id": "f06",
+      "id": "unc-002",
+      "unit_id": "p08-c04",
+      "start": 9,
+      "end": 10,
+      "surface": "趂",
+      "reason": "走旁右部暫讀趂，保留與趁的字形候選，不默正規化。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "趂",
+        "趁"
+      ]
+    },
+    {
+      "page_id": "f06",
+      "id": "unc-003",
+      "unit_id": "p08-c04",
+      "start": 11,
+      "end": 13,
+      "surface": "倘淺",
+      "reason": "淺前一字左側疑有亻，暫讀倘；不因詞例改成尚。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "倘淺",
+        "尚淺"
+      ]
+    },
+    {
+      "page_id": "f06",
+      "id": "unc-004",
+      "unit_id": "p09-c06",
+      "start": 0,
+      "end": 1,
+      "surface": "會",
+      "reason": "首字上部似人形合蓋，暫讀會；不憑會記／曾記詞例確定。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "會",
+        "曾"
+      ]
+    },
+    {
+      "page_id": "f07",
+      "id": "unc-005",
+      "unit_id": "p10-c05",
+      "start": 0,
+      "end": 1,
+      "surface": "答",
+      "reason": "首字上部竹／艹的字形待獨立讀圖核對，暫錄答，不默統一異體。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "答",
+        "荅"
+      ]
+    }
+  ]
+}
