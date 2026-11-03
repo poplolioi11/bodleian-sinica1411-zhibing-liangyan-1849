@@ -1,8 +1,8 @@
-# 治病良言（1849；Bodleian Sinica 1411） / zhi bing liang yan: Transcription dataset
+# 治病良言(1849;Bodleian Sinica 1411) / Zhi bing liang yan [Good advice on treating illness]: Transcription dataset
 
 ## 摘要 / Abstract
 
-《治病良言》（zhi bing liang yan）是 1849 年由香港英華書院印刷、末署「黃泥涌仁施醫館謹白」的中文醫館文獻，個人作者未詳。原書陳述基督教施醫宗旨、免費診療及醫療花費，並向病人勸說及早就醫，可供研究十九世紀香港醫療慈善、醫病關係、費用話語與傳教印刷文化。v0.2.0 依 Bodleian Sinica 1411 的 10 幅影像轉錄 12 個原印文字面，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
+《治病良言》（Zhi bing liang yan）是 1849 年由香港英華書院印刷、末署「黃泥涌仁施醫館謹白」的中文醫館文獻，個人作者未詳。原書陳述基督教施醫宗旨、免費診療及醫療花費，並向病人勸說及早就醫，可供研究十九世紀香港醫療慈善、醫病關係、費用話語與傳教印刷文化。v0.2.0 依 Bodleian Sinica 1411 的 10 幅影像轉錄 12 個原印文字面，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
 
 Zhi bing liang yan (治病良言), printed by the Anglo-Chinese College in Hong Kong in 1849, closes with the institutional signature 黃泥涌仁施醫館; its individual author is unknown. The tract presents its Christian charitable purpose and account of free care, addresses medical expense and encourages early attendance, offering evidence for studying medical charity, hospital–patient relations, discourse on expense and missionary printing in nineteenth-century Hong Kong. Version 0.2.0 transcribes 12 original-print text faces across ten images of Bodleian Sinica 1411, providing TXT, JSON and TEI XML with references to the official source images. The text is a provisional AI transcription without human double collation or expert review.
 
@@ -12,6 +12,18 @@ Zhi bing liang yan (治病良言), printed by the Anglo-Chinese College in Hong 
 - [館藏書目 / Catalogue](https://east-asian.bodleian.ox.ac.uk/catalog/volume_1127)
 - [IIIF manifest](https://iiif.bodleian.ox.ac.uk/iiif/manifest/ecbaffa4-4b05-418e-8865-cfda761fa353.json)
 - [館方固定書目 XML / Fixed official catalogue XML](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201411.xml)
+
+### 題名與語言說明 / Title and language notes
+
+方括號英譯為編者意譯，非館目正式題名。Bracketed English titles are editorial discovery glosses, not official catalogue English titles.
+
+館目原羅馬字題名：「zhi bing liang yan」。展示：「Zhi bing liang yan」；僅首字母大小寫依展示規則調整，保留館目拼法及長音符號。
+
+題名來源 / Title source: [https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201411.xml](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201411.xml)
+
+語言層次 / Language layers: 原文依有限公開非操作性文字證據標 lzh，屬編者語體分類，未經全書專家審定。 eng 標記現行英文摘要，不表示固定封存附件全部為英文。 館目原語言代碼 chi 保留作來源資訊，不與本文語體分類混同。
+
+語言來源 / Language source: [https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201411.xml](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201411.xml)
 
 **公開狀態（2026-11-02）**：[v0.2.0](https://doi.org/10.5281/zenodo.23873571)已正式發布，DOI已登記；兩平台8個下載檔的匿名比對均一致。以下固定封存說明中的「預留／製備時」記錄打包當下狀態。
 
