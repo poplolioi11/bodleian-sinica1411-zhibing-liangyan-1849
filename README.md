@@ -54,3 +54,5 @@ Version 0.2.0 compares independent AI reading with the frozen first transcriptio
 Keywords: 治病良言; Sinica 1411; 醫學史; 醫療慈善史; 傳教醫療史; 香港; 醫療費用話語; 英華書院; history of medicine; medical charity; medical missions history; Hong Kong; medical fees discourse; Chinese print culture; 1849; digital humanities; TEI XML.
 
 預留版本 DOI（reserved；尚未確認正式發布）： https://doi.org/10.5281/zenodo.23873571
+
+引用中介資料更正僅適用目前 main 的 `CITATION.cff`；固定 tag／ZIP 與其 `SHA256SUMS` 保留原樣，固定包校驗表不套用到後續的 main 引用檔。Citation metadata corrections apply to the current main CITATION.cff; fixed tags/ZIPs and their checksums remain historical release snapshots.

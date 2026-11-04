@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: Please cite the fixed version and verify quotations against the source images.
 type: dataset
-title: 治病良言（1849，Bodleian Sinica 1411）：AI獨立讀稿與非盲回圖裁定資料集
+title: "治病良言(1849;Bodleian Sinica 1411) / Zhi bing liang yan [Good advice on treating illness]: Transcription dataset"
 authors:
 - family-names: Chu
   given-names: Chen-Yu
