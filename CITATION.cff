@@ -1,18 +1,27 @@
 cff-version: 1.2.0
-message: Please cite the fixed version and verify quotations against the source images.
+message: Cite the released fixed version and verify quotations against the official
+  source. Version 0.2.1 adds only the specified source-image corrections; see CORRECTIONS.md.
 type: dataset
-title: "治病良言(1849;Bodleian Sinica 1411) / Zhi bing liang yan [Good advice on treating illness]: Transcription dataset"
+title: '治病良言(1849;Bodleian Sinica 1411) / Zhi bing liang yan [Good advice on treating
+  illness]: Transcription dataset'
 authors:
 - family-names: Chu
   given-names: Chen-Yu
   orcid: https://orcid.org/0009-0003-9738-6914
   website: https://github.com/poplolioi11
-version: 0.2.0
-date-released: '2026-11-02'
-url: https://github.com/poplolioi11/bodleian-sinica1411-zhibing-liangyan-1849
-abstract: Independent AI reading compared with the frozen initial transcription, followed
-  by non-blind controller source adjudication. Two located variant uncertainties remain.
-  No human double collation, expert review, peer review or measured accuracy.
+version: 0.2.1
+url: https://github.com/poplolioi11/bodleian-sinica1411-zhibing-liangyan-1849/releases/tag/v0.2.1
+abstract: Zhi bing liang yan (治病良言), printed by the Anglo-Chinese College in Hong
+  Kong in 1849, closes with the institutional signature 黃泥涌仁施醫館; its individual author
+  is unknown. The tract presents its Christian charitable purpose and account of free
+  care, addresses medical expense and encourages early attendance, offering evidence
+  for studying medical charity, hospital–patient relations, discourse on expense and
+  missionary printing in nineteenth-century Hong Kong. Version 0.2.1 transcribes 12
+  original-print text faces across ten images of Bodleian Sinica 1411, providing TXT,
+  JSON and TEI XML with references to the official source images. The text is a provisional
+  AI transcription without human double collation or expert review. This revision
+  applies 1 source-supported character correction following targeted non-blind review
+  of reader proposals; it is not a new full-book independent collation.
 keywords:
 - 治病良言
 - Sinica 1411
@@ -31,4 +40,6 @@ keywords:
 - '1849'
 - digital humanities
 - TEI XML
-doi: 10.5281/zenodo.23873571
+license: CC-BY-4.0
+date-released: '2026-11-12'
+doi: 10.5281/zenodo.24156772

@@ -1,9 +1,10 @@
-# v0.1.0至v0.2.0訂正
+# 指定提案回圖結果
 
-固定初錄：https://doi.org/10.5281/zenodo.23872791。舊檔、tag與校驗值保留。
+v0.2.1承接v0.2.0固定原文與既有覆核狀態。本輪為已曝光候選的局部AI原圖覆核；採納只表示當處圖形支持，未另作全書獨立二校或人工、專家審定。
 
-CORRECTIONS.json的changes逐變動單位記完整before／after、核定reason、source及codepoint_edits；22個單位變動，不等於22個錯字。source_review_decisions另列39個來源裁定，包含維持初錄的項目；additional_agreement_review明列第39項p11-c02的寧／寕字形對碼覆核及未解保留。initial_uncertainty_resolutions列5筆舊疑讀處理；variant_reviews列明異體覆核的實際單位，不推成全冊統一。
+| 定位 | 原錄／提案 | 結果 | 原圖依據 |
+|---|---|---|---|
+| [p09-c06](https://iiif.bodleian.ox.ac.uk/iiif/image/b0d48395-e74e-4ee8-afcd-0452769796b7/full/3000,/0/default.jpg) | 會／曾 | 會 → 曾 | 上部是分開的八形兩筆，中部框與內筆，下部日形完整；沒有會上部的人形覆蓋。 |
+| [p03-c04](https://iiif.bodleian.ox.ac.uk/iiif/image/2f823832-7fea-4e68-8994-8a96cf592fcb/full/3000,/0/default.jpg) | 謝／藥 | 保留 謝；不採 藥 | 左部為言旁的點、橫與口，右部為射的身、寸結構；無艹頭，也無藥下部木，故按底本保留謝。 |
 
-source包含官方影像URL、canvas、SHA-256、影像幀、物理面、左右及unit ID；bbox為null，未提供逐字座標。codepoint_edits按Unicode碼點0起算半開區間，其機械對齊不增補裁定理由。未公開私有裁片、路徑、jobs或提示。
-
-uncertainties.json及本檔的uncertainties保留p11-c01、p11-c02兩處寕／寧疑讀。保留未解不同於未處理，不以語意或常見字強制定字。回報請附固定版本、unit ID、官方影像、讀法與理由；回報、採納及發版分開。
+本輪採納 1 處、保留 1 處。單元碼位範圍與來源hash見CORRECTIONS.json；舊版固定檔及訂正歷史保留。

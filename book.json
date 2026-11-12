@@ -1,7 +1,7 @@
 {
   "dataset_id": "bodleian-sinica1411",
-  "version": "0.2.0",
-  "title": "治病良言（1849，Bodleian Sinica 1411）：AI獨立讀稿與非盲回圖裁定資料集",
+  "version": "0.2.1",
+  "title": "治病良言(1849;Bodleian Sinica 1411) / Zhi bing liang yan [Good advice on treating illness]: Transcription dataset",
   "quality": {
     "status": "AI-independent-reading-and-nonblind-controller-source-adjudication",
     "independent_reading_applied": true,
@@ -23,7 +23,18 @@
     "peer_review": "not-performed",
     "reviewed_diff_units": 38,
     "source_review_decisions": 39,
-    "initial_uncertainties_resolved": 5
+    "initial_uncertainties_resolved": 5,
+    "targeted_review": {
+      "date": "2026-11-12",
+      "base_version": "0.2.0",
+      "proposal_count": 2,
+      "occurrence_count": 2,
+      "adopted_codepoints": 1,
+      "scope": "nonblind targeted source review; no new full-book independent collation",
+      "human_review": "not-run",
+      "expert_review": "not-run",
+      "accuracy_measured": false
+    }
   },
   "source": {
     "object_url": "https://digital.bodleian.ox.ac.uk/objects/ecbaffa4-4b05-418e-8865-cfda761fa353/",
@@ -87,7 +98,8 @@
         "status": "provisional-source-glyph-with-uncertainty",
         "uncertainty_retained": true
       }
-    }
+    },
+    "targeted_review": "Specified reader proposals rechecked against the fixed source images; only source-supported character corrections are applied. No other source text is changed."
   },
   "position_convention": "疑讀採單位內Unicode碼點0起算半開區間[start,end)；bbox為null；單位ID的pXX為物理面，公開page_id的fXX為官方影像幀。",
   "pages": [
@@ -630,7 +642,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "會記館中醫好之人、有些自說、未來醫",
+          "text": "曾記館中醫好之人、有些自說、未來醫",
           "bbox": null
         },
         {

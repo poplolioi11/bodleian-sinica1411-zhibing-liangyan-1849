@@ -7,3 +7,7 @@
 CORRECTIONS.json保留每個變動單位的before／after、核定reason與官方來源，另公開未改字的來源裁定、初錄疑讀處理及列定異體覆核範圍。codepoint_edits只做Unicode字串對齊，不是另一份字形裁定。沒有捏造逐字bbox。p14痕跡仍為unassessed，不稱附記已全錄。
 
 主代理及批判覆核代理原生模型細分未知，保持null。未做人類雙校、專家審定、同儕審查或人工參考準確率量測。工程通過不證明盲讀、全文原圖覆核或學術正確性。詳細方法、圖像、提示、程式及完整工作紀錄不公開。
+
+## v0.2.1 targeted source review
+
+Targeted non-blind review only: 2 specified occurrences; 1 adopted character corrections; 1 source readings retained. Candidates were exposed. No new independent full-book reading, human/expert review or measured character accuracy is claimed. See CORRECTIONS.json.

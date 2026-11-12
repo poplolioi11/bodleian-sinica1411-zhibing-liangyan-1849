@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>治病良言（1849，Bodleian Sinica 1411）：AI獨立讀稿與非盲回圖裁定資料集</title>
+        <title>治病良言(1849;Bodleian Sinica 1411) / Zhi bing liang yan [Good advice on treating illness]: Transcription dataset</title>
         <author role="historical-author-attribution">末題署「黃泥涌仁施醫館謹白」；本包不另推定個人作者。</author>
         <respStmt>
           <resp>資料整理與編碼</resp>
@@ -11,19 +11,18 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition>0.2.0</edition>
+        <edition>0.2.1; targeted source-image corrections to v0.2.0</edition>
       </editionStmt>
       <publicationStmt>
         <publisher>Chen-Yu Chu</publisher>
         <idno type="dataset-id">bodleian-sinica1411</idno>
-        <idno type="DOI">10.5281/zenodo.23873571</idno>
         <availability>
-          <p>古籍原文不新增限制；具著作權的自有說明與編排採CC BY 4.0。來源影像未收入本包，另依館方條款。</p>
+          <p>Historical source text: public domain. Copyright-eligible original editorial documentation: CC BY 4.0. Source images, crops, code and private work records are excluded. This candidate has no newly assigned DOI; see README.md and LICENSE.md.</p>
         </availability>
-      </publicationStmt>
+      <date when="2026-11-12">2026-11-12</date><idno type="repository">https://github.com/poplolioi11/bodleian-sinica1411-zhibing-liangyan-1849</idno></publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>治病良言（1849，Bodleian Sinica 1411）：AI獨立讀稿與非盲回圖裁定資料集</title>
+          <title>治病良言</title>
           <author>末題署「黃泥涌仁施醫館謹白」；本包不另推定個人作者。</author>
           <idno type="shelfmark">Bodleian Libraries, Sinica 1411</idno>
           <note type="edition">道光二十九年（1849）鐫；題頁署香港英華書院印刷。</note>
@@ -43,8 +42,8 @@
           <p n="position-convention">疑讀採單位內Unicode碼點0起算半開區間[start,end)；bbox為null；單位ID的pXX為物理面，公開page_id的fXX為官方影像幀。</p>
         </normalization>
       </editorialDecl>
-    </encodingDesc>
-  </teiHeader>
+    <p n="targeted-review-0.2.1">This revision adds only 1 character correction from targeted, non-blind source-image review. Candidates were exposed. Earlier full-book collation statements remain historical baseline coverage; no new full-book independent collation, human review or expert review is claimed.</p></encodingDesc>
+  <revisionDesc><change when="2026-11-12">0.2.1: targeted review of 2 source occurrences; 1 adopted character corrections and 1 retained readings. Prior version: 10.5281/zenodo.23873571.</change></revisionDesc></teiHeader>
   <facsimile>
     <surface ulx="0" uly="0" lrx="3000" lry="2250" xml:id="surface-f01">
       <desc>Upper cover</desc>
@@ -191,7 +190,7 @@
         <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c03">然後方來醫館、請問衆位、何爲虛費此</ab>
         <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c04">錢銀耶、卽使富者、亦不須虛費、況爾貧</ab>
         <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c05">者、衣食尙且難贍、何有餘錢而虛費耶、</ab>
-        <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c06">會記館中醫好之人、有些自說、未來醫</ab>
+        <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c06">曾記館中醫好之人、有些自說、未來醫</ab>
         <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c07">館之先、因請先生調治、衣衫典當不足、</ab>
         <ab type="printed-page-number" n="left" facs="#surface-f06" xml:id="p09-printed-page-number">四</ab>
       </div>
@@ -243,5 +242,5 @@
         <note type="layer-states">{"later-library-marks": "excluded-described-only", "original-print": "excluded-described-only"}</note>
       </div>
     </body>
-  </text>
+  <back><div type="targeted-corrections"><head>指定提案回圖結果 0.2.1</head><list><item><ref target="https://iiif.bodleian.ox.ac.uk/iiif/image/b0d48395-e74e-4ee8-afcd-0452769796b7/full/3000,/0/default.jpg">p09-c06</ref><note>會 → 曾; adopted; 上部是分開的八形兩筆，中部框與內筆，下部日形完整；沒有會上部的人形覆蓋。</note></item><item><ref target="https://iiif.bodleian.ox.ac.uk/iiif/image/2f823832-7fea-4e68-8994-8a96cf592fcb/full/3000,/0/default.jpg">p03-c04</ref><note>謝 → 謝; not-adopted-source-reading-retained; 左部為言旁的點、橫與口，右部為射的身、寸結構；無艹頭，也無藥下部木，故按底本保留謝。</note></item></list></div></back></text>
 </TEI>
